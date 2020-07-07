@@ -2,11 +2,9 @@ package Sinduri;
 
 public abstract class Shape {
 
-    int numberSides;
-    String typeShape;
-
-    abstract void calculateArea();
-    abstract void calculatePerimeter();
+    abstract double calculateArea();
+    abstract double calculatePerimeter();
+    abstract void displayResult();
 
 
 }
